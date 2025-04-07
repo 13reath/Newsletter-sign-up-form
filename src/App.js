@@ -29,7 +29,11 @@ export default function App() {
       <main className={`card${isValidEmail ? "-success" : ""}`}>
         {isValidEmail ? (
           <div className="success-card">
-            <img src="/assets/images/icon-success.svg" alt="success" />
+            <img
+              className="icon success"
+              src="/assets/images/icon-success.svg"
+              alt="success"
+            />
             <h1>Thanks for subscribing!</h1>
             <p>
               A confirmation email has been sent to
@@ -45,15 +49,27 @@ export default function App() {
               <p>Join 60,000+ product managers receiving monthly updates on:</p>
               <div className="card-adv">
                 <div className="card-adv-item">
-                  <img src="/assets/images/icon-success.svg" alt="success" />
+                  <img
+                    className="icon"
+                    src="/assets/images/icon-success.svg"
+                    alt="success"
+                  />
                   <span>Product discovery and building what matters</span>
                 </div>
                 <div className="card-adv-item">
-                  <img src="/assets/images/icon-success.svg" alt="success" />
+                  <img
+                    className="icon"
+                    src="/assets/images/icon-success.svg"
+                    alt="success"
+                  />
                   <span>Measuring to ensure updates are a success</span>
                 </div>
                 <div className="card-adv-item">
-                  <img src="/assets/images/icon-success.svg" alt="success" />
+                  <img
+                    className="icon"
+                    src="/assets/images/icon-success.svg"
+                    alt="success"
+                  />
                   <span>And much more!</span>
                 </div>
               </div>

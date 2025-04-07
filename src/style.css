@@ -41,7 +41,7 @@ body {
 }
 
 .card-text h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   margin-bottom: 1.5rem;
   color: var(--Blue-800);
 }
@@ -59,7 +59,6 @@ body {
 
 .card-mail {
   position: relative;
-  margin-top: 2rem;
 }
 
 .card-mail p {
@@ -93,6 +92,14 @@ input:focus {
   right: 0;
   color: var(--Red);
   font-size: 0.8rem;
+}
+
+.icon {
+  height: 24px;
+}
+
+.success {
+  height: 64px;
 }
 
 button {
@@ -133,6 +140,8 @@ button:hover {
   gap: 1.5rem;
   padding: 3rem;
   max-width: 450px;
+  border-radius: 1rem;
+  background-color: var(--White);
 }
 
 .success-card h1 {
