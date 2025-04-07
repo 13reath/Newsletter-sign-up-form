@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Newsletter-sign-up-form/static/css/main.d9f3f39c.css",
-    "main.js": "/Newsletter-sign-up-form/static/js/main.a9ba804a.js",
+    "main.js": "/Newsletter-sign-up-form/static/js/main.d417e269.js",
     "index.html": "/Newsletter-sign-up-form/index.html",
     "main.d9f3f39c.css.map": "/Newsletter-sign-up-form/static/css/main.d9f3f39c.css.map",
-    "main.a9ba804a.js.map": "/Newsletter-sign-up-form/static/js/main.a9ba804a.js.map"
+    "main.d417e269.js.map": "/Newsletter-sign-up-form/static/js/main.d417e269.js.map"
   },
   "entrypoints": [
     "static/css/main.d9f3f39c.css",
-    "static/js/main.a9ba804a.js"
+    "static/js/main.d417e269.js"
   ]
 }
