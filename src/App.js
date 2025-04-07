@@ -30,7 +30,7 @@ export default function App() {
         {isValidEmail ? (
           <div className="success-card">
             <img
-              className="icon success"
+              className="icon icon-success"
               src="/assets/images/icon-success.svg"
               alt="success"
             />
@@ -50,24 +50,30 @@ export default function App() {
               <div className="card-adv">
                 <div className="card-adv-item">
                   <img
-                    className="icon"
-                    src="/assets/images/icon-success.svg"
+                    className="icon icon-success"
+                    src={
+                      process.env.PUBLIC_URL + "/assets/images/icon-success.svg"
+                    }
                     alt="success"
                   />
                   <span>Product discovery and building what matters</span>
                 </div>
                 <div className="card-adv-item">
                   <img
-                    className="icon"
-                    src="/assets/images/icon-success.svg"
+                    className="icon icon-success"
+                    src={
+                      process.env.PUBLIC_URL + "/assets/images/icon-success.svg"
+                    }
                     alt="success"
                   />
                   <span>Measuring to ensure updates are a success</span>
                 </div>
                 <div className="card-adv-item">
                   <img
-                    className="icon"
-                    src="/assets/images/icon-success.svg"
+                    className="icon icon-success"
+                    src={
+                      process.env.PUBLIC_URL + "/assets/images/icon-success.svg"
+                    }
                     alt="success"
                   />
                   <span>And much more!</span>
